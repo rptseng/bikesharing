@@ -1,10 +1,16 @@
 # NY Citibike Challenge
 
 ## Overview
-
-[Link to Story](https://public.tableau.com/app/profile/ryan.tseng/viz/NY_citibike/NYCitibike)
+Using data collected from the Citi Bike ridership in New York City, the goal is to create visualizations in Tableau to identify trends that will inform a proposal to launch a bike sharing service in Des Moines, Iowa.
 
 ## Results
+In order to visualize rider data by time of day, the original data file was cleaned using Pandas to convert the integer data type for Trip Duration into an hour of the day.
+
+[NYC_CitiBike_Challenge.ipynb](https://github.com/rptseng/bikesharing/blob/main/NYC_CitiBike_Challenge.ipynb)
+
+The cleaned file was then fed into Tableau the below story was created using various visualizations:
+
+[Link to Story](https://public.tableau.com/app/profile/ryan.tseng/viz/NY_citibike/NYCitibike)
 
 ### Number of Riders by Gender
 ![gender_breakdown.png](https://github.com/rptseng/bikesharing/blob/main/resources/images/gender_breakdown.png)
